@@ -6,3 +6,6 @@ Para su funcionamiento se neceista tener instalado lo siguiente;
 sudo dnf update -y
 sudo dnf install python3-tkinter
 sudo dnf install yt-dlp -y
+
+Luego de instalar los requerimientos, debe correr el script:
+sudo bash dva.sh
