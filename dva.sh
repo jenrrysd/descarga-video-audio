@@ -1,7 +1,11 @@
 #!/bin/bash
 #
 if [[ "$(which python3 )" = "/usr/bin/python3" && "$(which yt-dlp)" = '/usr/bin/yt-dlp' ]]; then
-echo -e "SE COMPRUEBA QUE python3-tkinter y yt-dlp SÍ ESTÁ INSTALDO, 
+echo -e "SE COMPRUEBA QUE:
+         -----------------
+         python3-tkinter ó tk y yt-dlp
+         -----------------
+         SÍ ESTÁ INSTALDO, 
          SE PROCEDE CON LA INSTALCIÓN "
 
 icono=$PWD/dva.png
@@ -19,6 +23,10 @@ Terminal=false
 EOF'
 
 else
-	echo -e "NO TIENES INSTALADO python3-tkinder y yt-dlp PORFAVOR INSTALAR
-                 LO QUE SE PIDE Y LUEGO VOLVER A EJECUTAR ESTE SCRIPT"
+echo -e "PORFAVOR INSTALAR:
+         ------------------
+         python3-tkinter ó tk (basado en distros archlinux)
+         yt-dlp
+         ------------------
+         Y LUEGO VOLVER A EJECUTAR ESTE SCRIPT"
 fi
