@@ -3,9 +3,11 @@
 if [[ "$(which python3 )" = "/usr/bin/python3" && "$(which yt-dlp)" = '/usr/bin/yt-dlp' ]]; then
 echo -e "SE COMPRUEBA QUE:
          -----------------
-         python3-tkinter ó tk y yt-dlp
+         python3-tkinter
+         tk
+         yt-dlp
          -----------------
-         SÍ ESTÁ INSTALDO, 
+         SÍ ESTÁ INSTALADO,
          SE PROCEDE CON LA INSTALCIÓN "
 
 icono=$PWD/dva.png
@@ -25,7 +27,8 @@ EOF'
 else
 echo -e "PORFAVOR INSTALAR:
          ------------------
-         python3-tkinter ó tk (basado en distros archlinux)
+         python3-tkinter
+         tk
          yt-dlp
          ------------------
          Y LUEGO VOLVER A EJECUTAR ESTE SCRIPT"

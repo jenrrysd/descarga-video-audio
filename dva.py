@@ -11,7 +11,7 @@ musica_dir = f"/home/{username}/Música"
 root = Tk()
 root.resizable(0,0)
 root.title("DVA")
-root.geometry("600x280") #600 largo, 240 ancho
+root.geometry("620x310") #600 largo, 240 ancho
 
 def descargar_video():
     url = url_entry.get()
@@ -49,7 +49,7 @@ def limpiar_url():
 fuente_titulo = ("Arial", 14, "bold")
 myLabel1 = Label(root, text="DESCARGA VIDEO O AUDIO", font=fuente_titulo)
 myLabel2 = Label(root, text="Ingresa la url del video")
-myLabel3 = Label(root, text=f"La descarga de los videos se hace en formato mp4 y \nLos audios se descargan en formato mp3 \nLos videos desacargados estan en: {videos_dir}\nLos audios descargados estan en: {musica_dir}")
+myLabel3 = Label(root, text=f"La descarga de los videos se hace en formato mp4 y \nLos audios se descargan en formato mp3 \nLos videos descargados están en: {videos_dir}\nLos audios descargados están en: {musica_dir}")
 
 myLabel1.grid(row=0, column=0)
 myLabel2.grid(row=1, column=0)
