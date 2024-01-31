@@ -10,7 +10,7 @@ echo -e "SE COMPRUEBA QUE:
          SÍ ESTÁ INSTALADO,
          SE PROCEDE CON LA INSTALCIÓN "
 
-icono=$PWD/dva.png
+icono=$PWD/dva.svg
 ruta=$PWD/dva.py
 sudo bash -c  'cat > /usr/share/applications/dva.desktop << EOF
 [Desktop Entry]
